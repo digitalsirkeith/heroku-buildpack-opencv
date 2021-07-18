@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 # do nothing!
-echo "----> huehue test"
 cat <<EOF
 ---
 config_vars:
