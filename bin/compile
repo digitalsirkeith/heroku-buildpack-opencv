@@ -28,8 +28,11 @@ fi
 # vendor
 echo "-----> Vendoring OpenCV shared objects into slug"
 VENDORED_SO="$BUILD_DIR/vendor/opencv/lib"
+echo "-----> after vendored_so"
 mkdir -p $VENDORED_SO
+echo "-----> after mkdir"
 cp -a "$VENDORED_OPENCV/lib/." $VENDORED_SO
+echo "-----> after cp"
 
 # runtime
 mkdir -p "$BUILD_DIR/.profile.d"
